@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Authentication;
+﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -14,6 +14,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using AtlasPollingApp.API.Data;
 
 namespace AtlasPollingApp.API
 {
@@ -37,6 +39,9 @@ namespace AtlasPollingApp.API
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AtlasPollingApp.API", Version = "v1" });
             });
+
+            services.AddDbContext<AtlasPollingAppAPIContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("AtlasPollingAppAPIContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
