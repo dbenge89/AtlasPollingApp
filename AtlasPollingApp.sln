@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlasPollingApp.API", "AtlasPollingApp.API\AtlasPollingApp.API.csproj", "{AAA1F4A5-8F05-4F32-80AA-BC9C5EDE969C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AtlasPollingApp.API", "AtlasPollingApp.API\AtlasPollingApp.API.csproj", "{AAA1F4A5-8F05-4F32-80AA-BC9C5EDE969C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlasPollingApp.Data", "AtlasPollingApp.Data\AtlasPollingApp.Data.csproj", "{DE85BE9F-7F89-431C-A806-599CCF9E7257}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlasPollingApp.Models", "AtlasPollingApp.Models\AtlasPollingApp.Models.csproj", "{59294D3A-8AE6-4B65-B419-CD62E7AFE91D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlasPollingApp.Services", "AtlasPollingApp.Services\AtlasPollingApp.Services.csproj", "{141DCFC1-B3C3-4C76-8183-8D32488A9C8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlasPollingApp.Interface", "AtlasPollingApp.Interface\AtlasPollingApp.Interface.csproj", "{39F09524-05A8-4BD9-A293-4BBA199407D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{AAA1F4A5-8F05-4F32-80AA-BC9C5EDE969C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAA1F4A5-8F05-4F32-80AA-BC9C5EDE969C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAA1F4A5-8F05-4F32-80AA-BC9C5EDE969C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE85BE9F-7F89-431C-A806-599CCF9E7257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE85BE9F-7F89-431C-A806-599CCF9E7257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE85BE9F-7F89-431C-A806-599CCF9E7257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE85BE9F-7F89-431C-A806-599CCF9E7257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59294D3A-8AE6-4B65-B419-CD62E7AFE91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59294D3A-8AE6-4B65-B419-CD62E7AFE91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59294D3A-8AE6-4B65-B419-CD62E7AFE91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59294D3A-8AE6-4B65-B419-CD62E7AFE91D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{141DCFC1-B3C3-4C76-8183-8D32488A9C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{141DCFC1-B3C3-4C76-8183-8D32488A9C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{141DCFC1-B3C3-4C76-8183-8D32488A9C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{141DCFC1-B3C3-4C76-8183-8D32488A9C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39F09524-05A8-4BD9-A293-4BBA199407D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F09524-05A8-4BD9-A293-4BBA199407D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F09524-05A8-4BD9-A293-4BBA199407D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F09524-05A8-4BD9-A293-4BBA199407D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

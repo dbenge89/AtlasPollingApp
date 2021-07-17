@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AtlasPollingApp.Interface\AtlasPollingApp.Interface.csproj" />
+    <ProjectReference Include="..\AtlasPollingApp.Models\AtlasPollingApp.Models.csproj" />
+  </ItemGroup>
+
+</Project>
